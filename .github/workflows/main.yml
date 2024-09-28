@@ -48,7 +48,7 @@ jobs:
         run: ls -l ./
 
       - name: Rename WAR file
-        run: mv damonroyr-1.0.1.war demo.war
+        run: mv damonroyr-1.0.1.war damonroyr.war
 
       - name: Install sshpass
         run: sudo apt-get update && sudo apt-get install -y sshpass
