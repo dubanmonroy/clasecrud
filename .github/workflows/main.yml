@@ -28,7 +28,7 @@ jobs:
       - name: Upload WAR file
         uses: actions/upload-artifact@v3
         with:
-          name: damonror-war
+          name: damonroyr-war
           path: target/damonroyr-1.0.1.war
       
       - name: List target directory contents
